@@ -19,7 +19,7 @@ date_default_timezone_set('Asia/Manila');
 
 //Login
 Route::get('/login', 'PagesController@login')->name('login');
-
+Route::get('/', 'PagesController@login')->name('login');
 
 
 //Dashboard
